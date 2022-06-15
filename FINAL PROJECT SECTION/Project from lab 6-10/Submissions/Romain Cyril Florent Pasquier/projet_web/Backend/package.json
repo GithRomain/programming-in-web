@@ -1,0 +1,20 @@
+{
+  "name": "gr_todoitems_server",
+  "version": "1.0.0",
+  "description": "Przykładowy REST API server do celów doemonstracji ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GR 2021",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cli": "^1.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2"
+  }
+}
