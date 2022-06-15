@@ -1,0 +1,271 @@
+header
+{
+    background: url("../IMG/header.png");
+    background-size: cover;
+    height: 750px;
+    position: fixed;
+    width: 96%;
+}
+
+/*Desktop*/
+.lignes
+{
+    position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.l1
+{
+    background-color: var(--clr1);
+    width: 500px;
+    height: 5px;
+}
+
+.l2
+{
+    background-color: var(--clr1);
+    width: 350px;
+    height: 5px;
+    position: absolute;
+    top: 15px
+}
+
+.logo_portfolio
+{
+    position: absolute;
+    right: 5px;
+    color: var(--clr1);
+    font-size: 30px;
+}
+
+.text_container
+{
+    position: absolute;
+    top: 105px;
+    left: 300px;
+    font-size: 60px;
+    color: var(--clr3);
+}
+
+.color
+{
+    color: var(--clr4);
+}
+
+.efrei
+{
+    top: 675px;
+    position: absolute;
+    right: 80%;
+}
+
+.cv
+{
+    top: 675px;
+    position: absolute;
+    right: 25%;
+}
+
+.profil
+{
+    top: 675px;
+    position: absolute;
+    right: 10%;
+}
+
+.fleche1
+{
+    position: absolute;
+    top: 730px;
+    right: 80%;
+    background-color: var(--clr2);
+    width: 165px;
+    height: 3px;
+}
+
+.fleche2
+{
+    position: absolute;
+    top: 730px;
+    right: 25%;
+    background-color: var(--clr2);
+    width: 98px;
+    height: 3px;
+}
+
+.fleche3
+{
+    position: absolute;
+    top: 730px;
+    right: 10%;
+    background-color: var(--clr2);
+    width: 112px;
+    height: 3px;
+}
+
+.button_cv {
+    display: flex;
+    padding: 0;
+    background: var(--clr3);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button_cv:hover {
+    background: var(--clr4);
+}
+
+.button:active {
+    background: var(--clr1);
+}
+
+.button_cv_text
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--clr0);
+}
+
+.button_cv_icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px;
+    color: var(--clr0);
+}
+
+.button_cv_icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+/*Tablet*/
+@media (max-width: 1060px)
+{
+    .l1
+    {
+        background-color: var(--clr1);
+        width: 350px;
+        height: 5px;
+    }
+
+    .l2
+    {
+        background-color: var(--clr1);
+        width: 250px;
+        height: 5px;
+        position: absolute;
+        top: 15px
+    }
+
+    .text_container
+    {
+        top: 110px;
+        left: 40%;
+    }
+
+    .efrei
+    {
+        top: 375px;
+        right: 25%;
+    }
+
+    .cv
+    {
+        top: 525px;
+        right: 78%;
+    }
+
+    .profil
+    {
+        top: 600px;
+        right: 76.5%;
+    }
+
+    .fleche1
+    {
+        top: 430px;
+        right: 25%;
+    }
+
+    .fleche2
+    {
+        top: 580px;
+        right: 78%;
+    }
+
+    .fleche3
+    {
+        top: 655px;
+        right: 76.5%;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 748px)
+{
+    .l1
+    {
+        background-color: var(--clr1);
+        width: 150px;
+        height: 5px;
+    }
+
+    .l2
+    {
+        background-color: var(--clr1);
+        width: 75px;
+        height: 5px;
+        position: absolute;
+        top: 15px
+    }
+
+    .text_container
+    {
+        top: 475px;
+        left: 25%;
+    }
+
+    .efrei
+    {
+        top: 50px;
+        right: 5%;
+    }
+
+    .cv
+    {
+        top: 200px;
+        right: 5%;
+    }
+
+    .profil
+    {
+        top: 275px;
+        right: 5%;
+    }
+
+    .fleche1
+    {
+        top: 107px;
+        right: 5%;
+    }
+
+    .fleche2
+    {
+        top: 255px;
+        right: 5%;
+    }
+
+    .fleche3
+    {
+        top: 330px;
+        right: 5%;
+    }
+}
+

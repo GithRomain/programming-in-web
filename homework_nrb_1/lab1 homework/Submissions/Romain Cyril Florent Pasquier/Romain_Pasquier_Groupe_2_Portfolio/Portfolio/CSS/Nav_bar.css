@@ -1,0 +1,142 @@
+html
+{
+    font-size: 100%;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    position: sticky;
+    top: 45px;
+    height: 70px;
+    z-index: 10;
+}
+
+.navigation
+{
+    width: 400px;
+    height: 70px;
+    background-color: var(--clr3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navigation ul
+{
+    display: flex;
+    width: 350px;
+    position: relative;
+    left: -5%;
+}
+
+.navigation ul li
+{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+
+.navigation ul li a
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.navigation ul li a .icon
+{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 2.5em;
+    text-align: center;
+    transition: 0.5s;
+    color: var(--clr0);
+}
+
+.navigation ul li.active a .icon
+{
+    transform: translateY(-35px);
+}
+
+.navigation ul li a .text
+{
+    position: absolute;
+    color: var(--clr0);
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.navigation ul li.active a .text
+{
+    opacity: 1;
+    transform: translateY(15px);
+}
+
+.indicator
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: var(--clr4);
+    top: -37px;
+    left: 34px;
+    border-radius: 50%;
+    border: 6px solid var(--clr1);
+    transition: 0.5s;
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator
+{
+    transform: translateX(calc(37px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator
+{
+    transform: translateX(calc(57px * 1));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator
+{
+    transform: translateX(calc(57px * 2));
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator
+{
+    transform: translateX(calc(58px * 3));
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator
+{
+    transform: translateX(calc(58px * 4));
+}
+
+.navigation ul li:nth-child(6).active ~ .indicator
+{
+    transform: translateX(calc(58px * 5));
+}
+
+@media (max-width: 499px)
+{
+    .navigation
+    {
+        width: 350px;
+    }
+}

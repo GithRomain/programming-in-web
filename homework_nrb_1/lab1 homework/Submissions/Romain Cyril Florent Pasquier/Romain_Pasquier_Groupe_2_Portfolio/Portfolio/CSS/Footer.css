@@ -1,0 +1,97 @@
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 10px;
+    color: var(--clr0);
+    font-size: 12px;
+}
+
+.container_footer
+{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr3);
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer_just
+{
+    display: flex;
+    justify-content: center;
+    gap: 35%;
+}
+
+.nom_prenom
+{
+    font-size: 20px;
+}
+
+.description_légère
+{
+    margin-top: 20px;
+}
+
+.sidebar_info
+{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    gap: 20px;
+}
+
+.sidebar_info a
+{
+    display: flex;
+    text-decoration: none;
+    color: var(--clr0);
+    justify-content: center;
+    font-size: 15px;
+}
+
+.sidebar_info a:hover
+{
+
+    color: var(--clr2);
+    text-decoration: underline var(--clr2);
+}
+
+.reseaux
+{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 15px;
+}
+
+.reseaux ion-icon
+{
+    color: var(--clr4);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.reseaux ion-icon:hover
+{
+    color: var(--clr2)
+}
+
+.copyright
+{
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+/*Tablet*/
+@media (max-width: 1060px)
+{
+    footer
+    {
+        position: absolute;
+        bottom: 0px;
+    }
+
+}

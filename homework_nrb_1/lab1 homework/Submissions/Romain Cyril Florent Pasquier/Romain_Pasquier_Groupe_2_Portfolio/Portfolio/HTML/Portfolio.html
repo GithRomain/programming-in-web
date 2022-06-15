@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio_Romain_Pasquier</title>
+
+    <!-- For icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- For CSS -->
+    <link rel="stylesheet" href="../CSS/Design.css">
+    <link rel="stylesheet" href="../CSS/Header.css">
+    <link rel="stylesheet" href="../CSS/Nav_bar.css">
+    <link rel="stylesheet" href="../CSS/Main.css">
+    <link rel="stylesheet" href="../CSS/Side_bar.css">
+    <link rel="stylesheet" href="../CSS/Advertissing.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+
+</head>
+<body>
+
+<div class="header_container">
+    <header class="all_section" id="home">
+        <div class="lignes">
+            <div class="l1"></div>
+            <div class="l2"></div>
+        </div>
+        
+        <div class="logo_portfolio">
+            <ion-icon name="file-tray-outline"></ion-icon>
+        </div>
+        
+        <div class="text_container">
+            <span class="color"><span class="title">N</span><span class="title">o</span><span class="title">t</span><span class="title">h</span><span class="title">i</span><span class="title">n</span><span class="title">g</span></span> <span class="title">is</span> <span class="title">impossible</span>
+        </div>
+        <div class="download">
+            <div class="Efrei">
+                <div class="fleche1 fleche"></div>
+                <button type="button" class="button_cv efrei" onclick="window.location.href='https://www.efrei.fr/'">
+                    <span class="button_cv_text">EFREI Paris</span>
+                    <span class="button_cv_icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                    </span>
+                </button>
+
+            <div class="Cv-profil">
+                <div class="fleche2 fleche"></div>
+                <button type="button" class="button_cv cv" onclick="window.location.href='../DOC/CV.pdf'">
+                    <span class="button_cv_text">CV</span>
+                    <span class="button_cv_icon">
+                        <ion-icon name="cloud-download-outline"></ion-icon>
+                    </span>
+                </button>
+
+                <div class="fleche3 fleche"></div>
+                <button type="button" class="button_cv profil" onclick="window.location.href='../DOC/Mon profil.pdf'">
+                    <span class="button_cv_text">Profil</span>
+                    <span class="button_cv_icon">
+                        <ion-icon name="cloud-download-outline"></ion-icon>
+                    </span>
+                </button>
+            </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="container">
+
+    <nav class="all_section">
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#">
+                    <span class="icon">
+                        <ion-icon class="home_button" name="home-outline"></ion-icon>
+                    </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#slidebar">
+                    <span class="icon">
+                        <ion-icon class="profil_button" name="person-outline"></ion-icon>
+                    </span>
+                        <span class="text">Profile</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#galery">
+                    <span class="icon">
+                        <ion-icon name="create-outline"></ion-icon>
+                    </span>
+                        <span class="text">Galery</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#form">
+                    <span class="icon">
+                        <ion-icon name="pencil-outline"></ion-icon>
+                    </span>
+                        <span class="text">Form</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#carousel">
+                    <span class="icon">
+                        <ion-icon name="tv-outline"></ion-icon>
+                    </span>
+                        <span class="text">Carousel</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#footer">
+                    <span class="icon">
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </span>
+                        <span class="text">End</span>
+                    </a>
+                </li>
+
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="all_section">
+
+        <div id="slidebar"></div>
+        <strong class="title_main first_title">Card</strong>
+        <div class="card_main">
+            <div class="card_main-header">
+                <img src="../IMG/profil_card.jpg" alt="Profil_card" />
+            </div>
+            <div class="card_main-body">
+                <span class="tag_main tag_main-teal">Profil</span>
+                <h4>
+                    Currently studying at EFREI Paris and member of his climbing association, I like discover new computing methods and implement them
+                </h4>
+                <p>
+                    Multi-sport practice helps me surpass myself. I'm aiming for the major software engineering or cybersecurity.
+                </p>
+            </div>
+        </div>
+
+        <div id="galery"></div>
+        <strong class="title_main">Galery of picture</strong>
+        <div class="flex-wrapper">
+            <a href="" class="one">
+                <div class="overlay">
+                    <div class="overlay-inner">
+                        <h2>Nature</h2>
+                        <p>Apart from the web, I like to walk around and visit cities or hike in nature.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="two">
+                <div class="overlay">
+                    <div class="overlay-inner">
+                        <h2>Summer</h2>
+                        <p>Summer is my favorite season, I love the festive atmosphere and warmth that this season provides.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="three">
+                <div class="overlay">
+                    <div class="overlay-inner">
+                        <h2>Family</h2>
+                        <p>I am very attached to my family. Whether it's my parents or my sister, I don't miss a moment to see them.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="four">
+                <div class="overlay">
+                    <div class="overlay-inner">
+                        <h2>Work</h2>
+                        <p>I am totally fulfilled in my computer engineering studies, and I take pleasure in learning new languages and new methods.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="five">
+                <div class="overlay">
+                    <div class="overlay-inner">
+                        <h2>Adventure</h2>
+                        <p>As in programming, I like to take risks and go on adventures in my free time.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div id="form"></div>
+        <strong class="title_main">Form</strong>
+        <form class="container_form">
+            <div class="form_content" >
+                <img src="../IMG/formulaire.jpg">
+                <strong>Complete it</strong>
+                <label class="input-div one" for="username">
+                    <div class="div_input">
+                        <h5>Username</h5>
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" id="username" class="input" placeholder="Username" required>
+                    </div>
+                </label>
+
+                <label class="input-div one" for="email">
+                    <div class="i">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="div_input">
+                        <h5>Email</h5>
+                        <input type="text" id="email" class="input" placeholder="Email" required>
+                    </div>
+                </label>
+
+                <div class="container_choice">
+                    <label class="choice_yes_or_no"></label>
+                        <h5 class="text_choice">Does "HTML" mean: "HyperText Markup Language ?"</h5>
+                    <div class="button_choice_yes_or_no">
+                        <label for="yes">
+                            <input class="radio_button" type="radio" id="yes" name="radio" checked/>
+                            <p class="yes_one">Yes</p>
+                        </label>
+                        <label for="no">
+                            <input class="radio_button" size="50px" type="radio" id="no" name="radio"/>
+                            <p class="no_one">No</p>
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="button_submit">
+                    <span class="button_cv_text">Submit</span>
+                    <span class="button_cv_icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                    </span>
+                </button>
+            </div>
+        </form>
+
+        <div id="carousel"></div>
+        <strong class="title_main">Carousel</strong>
+        <div id="carousel-wrapper">
+            <div id="menu">
+                <div id="current-option">
+                    <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+                    <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+                </div>
+                <button id="previous-option">
+                    <ion-icon name="caret-down-outline"></ion-icon>
+                </button>
+                <button id="next-option">
+                    <ion-icon name="caret-down-outline"></ion-icon>
+                </button>
+
+            </div>
+            <div id="image"></div>
+        </div>
+    </main>
+
+    <aside class="all_section">
+
+        <div class="position_fixed">
+            <div class="container_side_bar">
+                <div class="card">
+                    <div class="card-bio">
+                        <div class="img-wrapper">
+                            <img src="../IMG/profil.jpg" alt="Person" />
+                        </div>
+                        <div class="person-info">
+                            <h3>Romain Pasquier</h3>
+                            <p>Engineer student<br>Web designer<br>Developer<br>Problems solver<br>Paris, France</p>
+                        </div>
+                        <button class="card-btn">
+                            <span class="card-btn-contact">Contact Me</span>
+                            <i class="fas fa-angle-up"></i>
+                        </button>
+                    </div>
+                    <div class="card-contact">
+                        <h4>Contact Me</h4>
+                    </div>
+                    <div class="card-social email" onclick=window.location.href=("mailto:romain.pasquier@efrei.net")>
+                        <div class="icon-wrapper">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>romain.pasquier@efrei.net</p>
+                        </div>
+                        <span>></span>
+                    </div>
+                    <div class="card-social fb" onclick="window.location.href='https://www.instagram.com/'">
+                        <div class="icon-wrapper">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Intagram</h4>
+                            <p>@romain_pasquie5</p>
+                        </div>
+                        <span>></span>
+                    </div>
+                    <div class="card-social linkedin" onclick="window.location.href='https://www.linkedin.com/in/romain-pasquier-49b597222/'">
+                        <div class="icon-wrapper">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>@romainpasquier</p>
+                        </div>
+                        <span>></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section class="all_section">
+        <div class="container_ads">
+            <strong class="title_main">Ads</strong>
+            <div class="card_ad card1">
+                <div class="card-header">
+                    <img src="../IMG/drone.jpg" alt="rover" />
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-teal">Technology</span>
+                    <h4>
+                        Airbus: the helicopter drone prototype performs its first autonomous free flight
+                    </h4>
+                    <p>
+                        Airbus Helicopters flew the VSR700 helicopter drone completely autonomously for ten minutes. The tests took place in France, near Aix-en-Provence.
+                    </p>
+                    <div class="user">
+                        <div class="user-info user1">
+                        <h5>Price :</h5>
+                        <small class="small1">1000£</small>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_ad card2">
+                <div class="card-header">
+                    <img src="../IMG/jeu.jpg" alt="ballons" />
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-purple">Popular</span>
+                    <h4>
+                        "Horizon: Forbidden West", the sequel to the adventures of archer Aloy hits the bull's eye
+                    </h4>
+                    <p>
+                        Five years after "Horizon: Zero Dawn", the heroine Aloy returns to PlayStation 4 and 5. An open-world video game that takes place in a post-apocalyptic and nevertheless joyful universe.
+                    </p>
+                    <div class="user">
+                        <div class="user-info user2">
+                            <h5>Price :</h5>
+                            <small class="small2">75£</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_ad card3">
+                <div class="card-header">
+                    <img src="../IMG/design.webp" alt="city" />
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-pink">Design</span>
+                    <h4>
+                        20 design articles we're thankful for in 2021
+                    </h4>
+                    <p>
+                        In honor of Thanksgiving week in the US, we’re sharing 20 different design articles from the past year that we’re thankful for.
+                    </p>
+                    <div class="user">
+                        <div class="user-info user3">
+                            <h5>Price :</h5>
+                            <small class="small3">25£</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="all_section">
+        <div class="container_footer">
+            <div class="footer_just">
+                <div class="Portfolio_info">
+                    <div class="nom_prenom">
+                        <strong>Portfolio : Romain Pasquier</strong>
+                    </div>
+                    <div class="description_légère">
+                        Engineer Student, computer enthusiast I seek to innovate and improve myself in web programming.
+                    </div>
+                </div>
+                <div class="sidebar_info">
+                    <a href="#">Home</a>
+                    <a href="#slidebar">Profil</a>
+                    <a href="#galery">Galery</a>
+                    <a href="#form">Form</a>
+                    <a href="#carousel">Carousel</a>
+                </div>
+            </div>
+            <div class="reseaux">
+                <div class="logo_insta">
+                    <a href="https://www.instagram.com/romain_pasquie5/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+
+                <div class="logo_fb">
+                    <a href="https://www.facebook.com/romain.pasquier.315/">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </div>
+
+                <div class="logo_link">
+                    <a href="https://www.linkedin.com/in/romain-pasquier-49b597222/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+
+                <div class="logo_mail">
+                    <a mailto="romain.pasquier@efrei.net">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </div>
+
+            </div>
+            <p class="copyright" id="footer">Romain Pasquier ©copyright 2022</p>
+            </div>
+    </footer>
+
+</div>
+
+</body>
+
+<!-- For JS -->
+<script src="../JS/Header.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="../JS/Nav_bar.js"></script>
+<script src="../JS/Main.js"></script>
+<script src="../JS/Side_bar.js"></script>
+
+</html>

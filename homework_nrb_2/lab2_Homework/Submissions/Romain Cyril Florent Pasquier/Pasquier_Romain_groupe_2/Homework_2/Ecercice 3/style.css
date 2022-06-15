@@ -1,0 +1,54 @@
+.bar_gris
+{
+    height: 3px;
+    background-color: gray;
+}
+
+.photo_icon
+{
+    font-size: 25px;
+    color: orange;
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.search
+{
+    position: absolute;
+    right: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.search_active
+{
+    position: absolute;
+    right: 10px;
+}
+
+.bar_orange
+{
+    height: 5px;
+    background-color: orange;
+}
+
+.img-fluid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+img
+{
+    height: 300px;
+    width: 300px;
+}
